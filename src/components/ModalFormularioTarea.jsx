@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import useProyectos from '../hooks/useProyectos';
 import Alerta from './Alerta';
 import { useParams } from 'react-router-dom';
-import { formatearFecha } from '../helpers/FormatearFecha';
+import formatearFecha from '../helpers/FormatearFecha';
 
 const PRIORIDAD = ['Baja', 'Media', 'Alta'];
 
